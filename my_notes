@@ -1,0 +1,23 @@
+ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro ~/omar_ws/src/my_robot_description/urdf/robot_urdf.xacro)"
+
+
+// robot state publisher is a built in pkg in ros2 
+What Does robot_state_publisher Do?
+
+Transforms: It listens to the /joint_states topic, which contains the current positions (and possibly velocities, efforts) of the robot's joints.
+
+Publishing TF: Based on the robot description (typically in the form of a URDF or XACRO file), robot_state_publisher computes the transforms between different links of the robot, using the joint state information, and publishes them as TF messages.
+
+Publishing Robot Model: It also makes the robot's description available for visualization in tools like RViz (through the /robot_description parameter).
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////.
+ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro ~/omar_ws/src/my_robot_description/urdf/robot_urdf.xacro)"
+
+
+ros2 run joint_state_publisher_gui joint_state_publisher_gui 
+
+ros2 run rviz2 rviz2 
+
+
+// used to control the movable joints of the robot

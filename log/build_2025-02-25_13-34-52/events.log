@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.003040] (my_robot_description) JobQueued: {'identifier': 'my_robot_description', 'dependencies': OrderedDict()}
+[0.003955] (my_robot_description) JobStarted: {'identifier': 'my_robot_description'}
+[0.037500] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'cmake'}
+[0.038802] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/omardahy/omar_ws/src/my_robot_description', '-DCMAKE_INSTALL_PREFIX=/home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description'], 'cwd': '/home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'omardahy'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omardahy'), ('OLDPWD', '/home/omardahy/omar_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1514'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7e5f80dc5c2c1fe010d3861d67bda841'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/omardahy/omar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omardahy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omardahy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omardahy:@/tmp/.ICE-unix/1514,unix/omardahy:/tmp/.ICE-unix/1514'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9112c044_aa67_4765_975b_8ddcffe5088b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JW3712'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omardahy/omar_ws/install/my_robot_description:/home/omardahy/omar_ws/install/firts_trial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7e5f80dc5c2c1fe010d3861d67bda841'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omardahy/omar_ws/install/my_robot_description:/home/omardahy/omar_ws/install/firts_trial:/opt/ros/humble')]), 'shell': False}
+[0.099802] (-) TimerEvent: {}
+[0.200380] (-) TimerEvent: {}
+[0.300994] (-) TimerEvent: {}
+[0.401578] (-) TimerEvent: {}
+[0.502200] (-) TimerEvent: {}
+[0.603129] (-) TimerEvent: {}
+[0.703619] (-) TimerEvent: {}
+[0.804279] (-) TimerEvent: {}
+[0.904868] (-) TimerEvent: {}
+[1.005832] (-) TimerEvent: {}
+[1.106771] (-) TimerEvent: {}
+[1.207634] (-) TimerEvent: {}
+[1.308640] (-) TimerEvent: {}
+[1.409651] (-) TimerEvent: {}
+[1.510624] (-) TimerEvent: {}
+[1.611242] (-) TimerEvent: {}
+[1.617418] (my_robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.711647] (-) TimerEvent: {}
+[1.812626] (-) TimerEvent: {}
+[1.913616] (-) TimerEvent: {}
+[2.014622] (-) TimerEvent: {}
+[2.115151] (-) TimerEvent: {}
+[2.215716] (-) TimerEvent: {}
+[2.316352] (-) TimerEvent: {}
+[2.416861] (-) TimerEvent: {}
+[2.517725] (-) TimerEvent: {}
+[2.606228] (my_robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.618110] (-) TimerEvent: {}
+[2.680639] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.718587] (-) TimerEvent: {}
+[2.819586] (-) TimerEvent: {}
+[2.920296] (-) TimerEvent: {}
+[2.988988] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.001328] (my_robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.004383] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.008396] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.020542] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.020713] (-) TimerEvent: {}
+[3.121566] (-) TimerEvent: {}
+[3.222534] (-) TimerEvent: {}
+[3.250942] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.266653] (my_robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.267207] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.268001] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.323161] (-) TimerEvent: {}
+[3.380541] (my_robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.423631] (-) TimerEvent: {}
+[3.524514] (-) TimerEvent: {}
+[3.625304] (-) TimerEvent: {}
+[3.726109] (-) TimerEvent: {}
+[3.741679] (my_robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.826467] (-) TimerEvent: {}
+[3.927254] (-) TimerEvent: {}
+[4.028085] (-) TimerEvent: {}
+[4.128531] (-) TimerEvent: {}
+[4.214470] (my_robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.229036] (-) TimerEvent: {}
+[4.329717] (-) TimerEvent: {}
+[4.430513] (-) TimerEvent: {}
+[4.467981] (my_robot_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.468771] (my_robot_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.468943] (my_robot_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.473181] (my_robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.479512] (my_robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.483930] (my_robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.501688] (my_robot_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.501884] (my_robot_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.506496] (my_robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.514100] (my_robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.521332] (my_robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[4.524829] (my_robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description\n'}
+[4.531080] (-) TimerEvent: {}
+[4.535390] (my_robot_description) CommandEnded: {'returncode': 0}
+[4.536257] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'build'}
+[4.536334] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description', '--', '-j16', '-l16'], 'cwd': '/home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'omardahy'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omardahy'), ('OLDPWD', '/home/omardahy/omar_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1514'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7e5f80dc5c2c1fe010d3861d67bda841'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/omardahy/omar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omardahy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omardahy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omardahy:@/tmp/.ICE-unix/1514,unix/omardahy:/tmp/.ICE-unix/1514'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9112c044_aa67_4765_975b_8ddcffe5088b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JW3712'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omardahy/omar_ws/install/my_robot_description:/home/omardahy/omar_ws/install/firts_trial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7e5f80dc5c2c1fe010d3861d67bda841'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omardahy/omar_ws/install/my_robot_description:/home/omardahy/omar_ws/install/firts_trial:/opt/ros/humble')]), 'shell': False}
+[4.611380] (my_robot_description) CommandEnded: {'returncode': 0}
+[4.612634] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'install'}
+[4.631176] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description'], 'cwd': '/home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'omardahy'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omardahy'), ('OLDPWD', '/home/omardahy/omar_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1514'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7e5f80dc5c2c1fe010d3861d67bda841'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/omardahy/omar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omardahy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omardahy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omardahy:@/tmp/.ICE-unix/1514,unix/omardahy:/tmp/.ICE-unix/1514'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9112c044_aa67_4765_975b_8ddcffe5088b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JW3712'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omardahy/omar_ws/install/my_robot_description:/home/omardahy/omar_ws/install/firts_trial:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7e5f80dc5c2c1fe010d3861d67bda841'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omardahy/omar_ws/install/my_robot_description:/home/omardahy/omar_ws/install/firts_trial:/opt/ros/humble')]), 'shell': False}
+[4.632150] (-) TimerEvent: {}
+[4.644404] (my_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.644734] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/meshes\n'}
+[4.645116] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/meshes/caster_front_link.STL\n'}
+[4.690407] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/meshes/base_link.STL\n'}
+[4.732411] (-) TimerEvent: {}
+[4.832857] (-) TimerEvent: {}
+[4.933762] (-) TimerEvent: {}
+[5.034515] (-) TimerEvent: {}
+[5.135453] (-) TimerEvent: {}
+[5.236165] (-) TimerEvent: {}
+[5.336698] (-) TimerEvent: {}
+[5.437689] (-) TimerEvent: {}
+[5.538281] (-) TimerEvent: {}
+[5.639222] (-) TimerEvent: {}
+[5.740219] (-) TimerEvent: {}
+[5.840703] (-) TimerEvent: {}
+[5.875331] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/meshes/imu_link.STL\n'}
+[5.896379] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/meshes/wheel_left_link.STL\n'}
+[5.941352] (-) TimerEvent: {}
+[5.995936] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/meshes/wheel_right_link.STL\n'}
+[6.041748] (-) TimerEvent: {}
+[6.094365] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/meshes/caster_rear_link.STL\n'}
+[6.126784] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/urdf\n'}
+[6.127242] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/robot_urdf.xacro\n'}
+[6.133372] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/launch\n'}
+[6.133841] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/launch/dispaly.launch.py\n'}
+[6.134182] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/rviz\n'}
+[6.134467] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/rviz/default.rviz\n'}
+[6.142226] (-) TimerEvent: {}
+[6.148414] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description\n'}
+[6.148958] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description\n'}
+[6.149546] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh\n'}
+[6.149949] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv\n'}
+[6.150320] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/environment/path.sh\n'}
+[6.150683] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/environment/path.dsv\n'}
+[6.150988] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/local_setup.bash\n'}
+[6.151467] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/local_setup.sh\n'}
+[6.151855] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/local_setup.zsh\n'}
+[6.152229] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/local_setup.dsv\n'}
+[6.152603] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/package.dsv\n'}
+[6.153099] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description\n'}
+[6.153502] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake\n'}
+[6.153830] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake\n'}
+[6.154467] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/package.xml\n'}
+[6.159053] (my_robot_description) CommandEnded: {'returncode': 0}
+[6.242533] (-) TimerEvent: {}
+[6.253490] (my_robot_description) JobEnded: {'identifier': 'my_robot_description', 'rc': 0}
+[6.254937] (-) EventReactorShutdown: {}

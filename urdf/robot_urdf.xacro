@@ -1,0 +1,176 @@
+<?xml version ="1.0"?>
+
+<robot xmlns:zacro="http://www.ros.org/wiki/xacro" name="my_robot">
+    
+   <xacro:include filename="xacroFile"/>
+
+    <link name="base_fooprint"/>
+             <!-- footprint usualy the lower part of the robot touched to the ground at point 0 0 0 -->
+
+    <link name=" ">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0" />
+             <!-- represent the orinetation of the mesh related to the base link -->
+               <geometry>
+                  <mesh filename="package://my_robot_description/meshes/base_link.STL" />
+               </geometry> 
+               <material name="blue">
+                    <color rgba="0.0 0.0 1.0 1.0"/> <!-- RGB and Alpha values (1.0 = fully opaque) -->
+               </material>
+
+               <collision>
+                <origin rpy="0 0 0" xyz="0 0 0" />
+                <geometry>
+                    <mesh filename="package://my_robot_description/meshes/base_link.STL" />
+                </geometry> 
+            </collision>
+        </visual>
+
+                    
+    </link> 
+
+    <joint name="footprint_base_joint" type="fixed">
+        <parent link="base_fooprint"/>
+        <child link="base_link"/>
+        <origin rpy="0 0 0" xyz="0 0 0.033" />
+             <!-- footprint usualy the lower part of the robot touched to the ground at point 0 0 0 -->
+             <!-- to lift the base joint up of the ground-->
+
+        
+    </joint>   
+
+
+
+
+
+
+
+
+
+
+    <link name="caster_wheel_front">
+            <visual>
+                <origin rpy="0 0 0" xyz="0 0 0" />
+                <geometry>
+                    <mesh filename="package://my_robot_description/meshes/caster_front_link.STL" />
+                </geometry> 
+                <material name="green">
+                        <color rgba="0.0 1.0 0.0 1.0"/> 
+                </material>
+            </visual>
+            
+
+                    
+    </link> 
+
+    <joint name="base_caster_wheel_front_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="caster_wheel_front"/>
+        <origin rpy="0 0 0" xyz="0.04755 0 -0.0275" />
+    </joint>   
+
+
+
+
+
+
+
+   <link name="caster_wheel_rear">
+            <visual>
+                <origin rpy="0 0 0" xyz="0 0 0" />
+                <geometry>
+                    <mesh filename="package://my_robot_description/meshes/caster_rear_link.STL" />
+                </geometry> 
+                <material name="green">
+                        <color rgba="0.0 1.0 0.0 1.0"/> 
+                </material>
+            </visual>
+
+                    
+    </link> 
+
+    <joint name="base_caster_wheel_rear_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="caster_wheel_rear"/>
+        <origin rpy="0 0 0" xyz="-0.04755 0 -0.0275" />
+    </joint>   
+
+
+
+
+
+
+
+
+
+    <link name="right_wheel_link">
+            <visual>
+                <origin rpy="1.57 0 0" xyz="0 0 0" />
+                <geometry>
+                    <mesh filename="package://my_robot_description/meshes/wheel_right_link.STL" />
+                </geometry> 
+                <material name="red">
+                        <color rgba="1.0 0.0 0.0 1.0"/> 
+                </material>
+            </visual>
+            
+            <collision>
+              <origin xyz="0 -0.015 0" rpy="1.57 0 0" />
+                <!-- this origin of the geometry with respect to the link it self-->
+              <geometry>
+                <sphere radius="0.033"/>
+              </geometry>
+
+            </collision>
+
+                    
+    </link> 
+
+    <joint name="base_wheel_right_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_wheel_link"/>
+        <origin rpy="0 0 0" xyz="0 -0.07 0" />
+        <axis xyz="0.0 1.0 0.0"/>
+    </joint>   
+
+
+
+
+
+
+
+
+
+
+
+
+ <link name="left_wheel_link">
+            <visual>
+                <origin rpy="-1.57 0 0" xyz="0 0 0" />
+                <geometry>
+                    <mesh filename="package://my_robot_description/meshes/wheel_left_link.STL" />
+                </geometry> 
+                <material name="red">
+                        <color rgba="1.0 0.0 0.0 1.0"/> 
+                </material>
+            </visual>
+
+            <collision>
+              <origin xyz="0 0.015 0" rpy="1.57 0 0" />
+                <!-- this origin of the geometry with respect to the link it self-->
+              <geometry>
+                <sphere radius="0.033"/>
+              </geometry>
+
+            </collision>       
+    </link> 
+
+    <joint name="base_wheel_left_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_wheel_link"/>
+        <origin rpy="0 0 0" xyz="0 0.07 0" />
+        <axis xyz="0.0 1.0 0.0"/>
+    </joint>   
+
+    
+</robot>

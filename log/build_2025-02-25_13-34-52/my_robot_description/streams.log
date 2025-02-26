@@ -1,0 +1,62 @@
+[0.036s] Invoking command in '/home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/omardahy/omar_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description
+[1.614s] -- The C compiler identification is GNU 11.4.0
+[2.602s] -- The CXX compiler identification is GNU 11.4.0
+[2.677s] -- Detecting C compiler ABI info
+[2.985s] -- Detecting C compiler ABI info - done
+[2.997s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.000s] -- Detecting C compile features
+[3.005s] -- Detecting C compile features - done
+[3.017s] -- Detecting CXX compiler ABI info
+[3.247s] -- Detecting CXX compiler ABI info - done
+[3.263s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.263s] -- Detecting CXX compile features
+[3.264s] -- Detecting CXX compile features - done
+[3.377s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.738s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.211s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.464s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.465s] -- Configured cppcheck include dirs: 
+[4.465s] -- Configured cppcheck exclude dirs and/or files: 
+[4.469s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.476s] -- Added test 'lint_cmake' to check CMake code style
+[4.480s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.498s] -- Added test 'uncrustify' to check C / C++ code style
+[4.498s] -- Configured uncrustify additional arguments: 
+[4.503s] -- Added test 'xmllint' to check XML markup files
+[4.510s] -- Configuring done
+[4.517s] -- Generating done
+[4.521s] -- Build files have been written to: /home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description
+[4.532s] Invoked command in '/home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/omardahy/omar_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description
+[4.533s] Invoking command in '/home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description -- -j16 -l16
+[4.608s] Invoked command in '/home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description -- -j16 -l16
+[4.628s] Invoking command in '/home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description
+[4.641s] -- Install configuration: ""
+[4.641s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/meshes
+[4.641s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/meshes/caster_front_link.STL
+[4.687s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/meshes/base_link.STL
+[5.872s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/meshes/imu_link.STL
+[5.893s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/meshes/wheel_left_link.STL
+[5.992s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/meshes/wheel_right_link.STL
+[6.091s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/meshes/caster_rear_link.STL
+[6.123s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/urdf
+[6.123s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/urdf/robot_urdf.xacro
+[6.130s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/launch
+[6.130s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/launch/dispaly.launch.py
+[6.130s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/rviz
+[6.131s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/rviz/default.rviz
+[6.145s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[6.145s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[6.146s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[6.146s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[6.146s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/environment/path.sh
+[6.147s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[6.147s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/local_setup.bash
+[6.148s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/local_setup.sh
+[6.148s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[6.148s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[6.149s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/package.dsv
+[6.149s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[6.150s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[6.150s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[6.151s] -- Installing: /home/omardahy/omar_ws/src/my_robot_description/install/my_robot_description/share/my_robot_description/package.xml
+[6.155s] Invoked command in '/home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omardahy/omar_ws/src/my_robot_description/build/my_robot_description

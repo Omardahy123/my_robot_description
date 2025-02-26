@@ -1,0 +1,6 @@
+<?xml version ="1.0"?>
+
+<robot xmlns:zacro="http://www.ros.org/wiki/xacro" name="my_robot">
+    
+
+</robot>
