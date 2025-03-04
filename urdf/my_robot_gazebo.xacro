@@ -49,7 +49,7 @@
 
     </gazebo>
     
-    <gazebo reference = "caster_wheel_rear">
+    <gazebo reference = "caster_wheel_rear"> 
 
         <mu1>0.1</mu1><!--(coef of friction)it is set to extremly haigh number to avoid any slipping-->
         <mu2>0.1</mu2><!--it is set to extremly haigh number to avoid any slipping-->
@@ -74,7 +74,7 @@
         <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
             <robot_param>robot_description</robot_param>
             <robot_param_node>robot_state_publisher</robot_param_node>
-            <parameters></parameters>
+            <parameters>$(find my_robot_controller)/config/my_robot_controller.yaml</parameters>
         </plugin>
     </gazebo>
 </robot>
