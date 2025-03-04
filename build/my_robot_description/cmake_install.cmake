@@ -48,6 +48,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/omardahy/omar_ws/src/my_robot_description/urdf"
     "/home/omardahy/omar_ws/src/my_robot_description/launch"
     "/home/omardahy/omar_ws/src/my_robot_description/rviz"
+    "/home/omardahy/omar_ws/src/my_robot_description/models"
     )
 endif()
 

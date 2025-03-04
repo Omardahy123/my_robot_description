@@ -4,7 +4,7 @@ from launch.actions import DeclareLaunchArgument
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch_ros.parameter_descriptions import ParameterValue
-from launch.substitutions import command,LaunchConfiguration
+from launch.substitutions import Command,LaunchConfiguration
 
 
 def generate_launch_description() :
@@ -17,7 +17,7 @@ def generate_launch_description() :
                 description = "Absolute path to robot URDF file"
         )
 
-        robot_description = ParameterValue(command(["xacro ",LaunchConfiguration("model")]),value_type=str)
+        robot_description = ParameterValue( Command(["xacro ", LaunchConfiguration("model")]), value_type=str)
 
         robot_state_publisher = Node(
                 package="robot_state_publisher",
@@ -32,9 +32,9 @@ def generate_launch_description() :
 
         rviz_node = Node(
                 package="rviz2",
-                executable="rviz2"
-                name = "rviz2"
-                output="screen"
+                executable="rviz2",
+                name = "rviz2",
+                output="screen",
                 arguments=["-d", os.path.join(get_package_share_directory("my_robot_description"),"rviz","default.rviz") ]
         )
         
