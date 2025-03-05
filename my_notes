@@ -20,4 +20,5 @@ ros2 run joint_state_publisher_gui joint_state_publisher_gui
 ros2 run rviz2 rviz2 
 
 
-// used to control the movable joints of the robot
+// used to control the movable joints of the robot 
+end of control part
